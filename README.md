@@ -25,6 +25,8 @@ support for [MathJAX](http://www.mathjax.org).
 
 ### Installation
 
+0. Download and install [nvALT](http://brettterpstra.com/projects/nvalt/).
+
 1. First, back up any custom files you've created previously. These
 files are located under `$HOME/Library/Application Support/nvALT/`.
 

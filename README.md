@@ -41,14 +41,14 @@ files are located under `$HOME/Library/Application Support/nvALT/`.
 
    You should now have the following files in your Support folder:
 
-       custom.css
-       highlight.pack.js
-       jquery.min.js
-       template.html
-       mathjax/
-         README.md
-         MathJax.js
-         ...
+        custom.css
+        highlight.pack.js
+        jquery.min.js
+        template.html
+        mathjax/
+          README.md
+          MathJax.js
+          ...
 
 4. Install the Automator workflow by double-clicking on the file
 `nvALT archive.workflow`. 

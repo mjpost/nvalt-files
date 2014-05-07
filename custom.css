@@ -1,0 +1,295 @@
+body,p,td,div {
+	word-break: break-all;
+	word-break: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}
+.doctitle {
+	margin: 0;
+	border-bottom: solid 2px #aaa;
+	white-space: nowrap;
+	top:0; left:0; right:0;
+}
+
+/* Normalize bits */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+a:active, a:hover {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: Menlo, Courier, monospace, serif;
+  font-size: 14px;
+}
+
+pre {
+	overflow:auto;
+}
+
+code {
+	border: 1px solid rgba(193, 196, 182, 1);
+	padding:  2px;
+	background-color: rgba(255, 252, 249, 1);
+}
+
+pre code {
+  border-radius: 6px;
+  padding: 20px;
+  white-space: pre;
+}
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+figure {
+  margin: 0;
+}
+
+/******************** General Typography ********************/
+body {
+  line-height: 1.5;
+  /*12/18*/
+  margin: 0;
+}
+
+h1, h2 {
+  line-height: 36px;
+  margin-bottom: 18px;
+}
+
+h1, h2, h3, h4 {
+  margin-top: 1.5em;
+}
+
+h3, h4, h5, h6 {
+  line-height: 1em;
+}
+
+h1 {
+  font-size: 24px;
+  top: 5px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  top: 8px;
+	border-bottom: solid 4px #aaa;
+}
+
+h3 {
+  font-size: 18px;
+  top: 1px;
+	border-bottom: solid 3px #aaa;
+}
+
+h4 {
+  font-size: 16px;
+  top: 2px;
+	border-bottom: solid 2px #aaa;
+}
+
+h5 {
+  font-size: 14px;
+  top: 4px;
+	border-bottom: solid 1px #aaa;
+}
+
+h6 {
+  font-size: 12px;
+  top: 5px;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child {
+  margin-top: 0;
+}
+dt {
+  font-weight: 600;
+}
+
+dd {
+  font-style: italic;
+}
+
+p, pre, address {
+  font-size: 17px;
+  line-height: 23px;
+}
+small {
+  font-size: 80%;
+}
+
+abbr, code, kbd,
+samp, small, var {
+  line-height: 1.5;
+}
+
+ul, ol, dl, dialog {
+  font-size: 17px;
+  line-height: 1.4;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+li ul, li ol, ul ul, ol ol {
+  top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+li h1, li h2, li h3,
+li h4, li h5, li h6,
+{
+  top: 0;
+  margin: 0;
+}
+
+/* Theme-specific styles */
+body {
+  background: white;
+  color: rgba(0, 0, 0, 0.9);
+  font-family: sans-serif;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: block;
+}
+
+#wrapper {
+  padding: 20px;
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: serif;
+}
+
+blockquote {
+  border: 1px dotted #ccc;
+  border-right: none;
+  border-left: none;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: serif;
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-top: 25px;
+}
+
+blockquote p {
+  font-size: 1em;
+  line-height: 1.4;
+  margin: 20px 0 25px;
+  padding: 0 15px;
+}
+
+ul, ol {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+a {
+  color: #07c;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4A6B82;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+}
+
+.inverted {
+  background: #222;
+  color: rgba(255, 255, 255, 0.7);
+}
+.inverted a {
+  color: #4eaff5;
+}
+.inverted h1, .inverted h2, .inverted h3, .inverted h4, .inverted h5, .inverted h6 {
+  color: rgba(255, 255, 255, 0.9);
+}
+.inverted ul, .inverted ol, .inverted blockquote, .inverted caption {
+  color: rgba(255, 255, 255, 0.5);
+}
+.inverted table {
+  border-top-color: rgba(255, 255, 255, 0.2);
+}
+.inverted tbody tr:nth-child(odd) td {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+@media print {
+  body {
+	color: #000;
+	font-size: 8pt;
+  }
+
+  a {
+	text-decoration: underline;
+  }
+
+  a:link:after {
+	content: " (" attr(href) ") ";
+  }
+
+  ul, ol {
+	color: #111;
+  }
+}
+
+

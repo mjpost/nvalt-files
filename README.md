@@ -4,7 +4,7 @@ I use nvALT extensively for research notes.  The files in this archive
 provide these functions:
 
 - [Bootstrap](http://getbootstrap.com)-based,
-  [MathJAX])http://www.mathjax.org)-enabled templates for previews
+  [MathJAX](http://www.mathjax.org)-enabled templates for previews
 - An Automator workflow implementing a Finder service that archives
   image files to a canonical location and copies a
   [Markdown](http://daringfireball.net/projects/markdown/)-formatted

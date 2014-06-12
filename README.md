@@ -10,6 +10,10 @@ provide these functions:
   [Markdown](http://daringfireball.net/projects/markdown/)-formatted
   image URL to that image, enabling each incorporation of images.
 
+Here is an example of the nvALT window with a MathJAX-enabled preview:
+
+![](images/example.png)
+
 These templates began with templates
 [published by Brett Terpstra](http://brettterpstra.com/2013/04/06/customizing-the-nvalt-preview/). I
 modified them to remove evidence of the "Lopash" them and to add

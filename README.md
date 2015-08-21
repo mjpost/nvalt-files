@@ -34,8 +34,8 @@ support for [MathJAX](http://www.mathjax.org).
 1. First, back up any custom files you've created previously. These
 files are located under `$HOME/Library/Application Support/nvALT/`.
 
-       $ cd "$HOME/Library/Application Support/"
-       $ mv nvALT nvALT.bak
+        $ cd "$HOME/Library/Application Support/"
+        $ mv nvALT nvALT.bak
 
 2. Move or download this archive to that location:
 
